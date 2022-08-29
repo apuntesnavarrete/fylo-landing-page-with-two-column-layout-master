@@ -24,7 +24,6 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 
     height: 100vh;
@@ -74,15 +73,18 @@ li{
     display: flex;
    width: 100%;
    justify-content: center;
+   align-items: center;
+
 
 }
 .top_img{
     width: 80%;
+    background-size: cover;
 
 }
 .top_title{
     color: var(--Very-Dark-Blue);
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 .top-formulario{
     padding: 1.6rem;
@@ -91,9 +93,139 @@ li{
     color: var(--Desaturated-Blue);
 }
 .top-content-form{
-    margin-top: 15px;
+    margin-top: 0.9rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+}
+
+.top_input{
+    max-width: 350px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--Desaturated-Blue);
+    padding: 0 15px;
+}
+
+.top_input::placeholder{
+    font-size: 12px;
+    color: var(--Light-Gray);
+}
+
+.top_button{
+    max-width: 350px;
+    margin: 15px 0;
+    width: 100%;
+    height: 40px;
+    border: 0px solid black;
+    border-radius: 5px;
+    background-color: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue);
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+        /*secction Middle*/
+
+     .secction_middle{
+        margin-top: 3.1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+     }   
+
+     .middle-content-img{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+     }
+     .middle-content-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px; 
+    }
+     .middle-img{
+        max-width: 500px;
+        width: 80%;
+    background-size: cover;
+     }
+     .middle-title{
+        font-family: 'Open Sans', sans-serif;
+
+        font-size: 1em;
+        color: var(--Very-Dark-Blue);
+        font-weight: 700;
+margin: 50px 0 10px 0 ;
+     }
+     .middle-description{
+        font-family: 'Open Sans', sans-serif;
+
+        font-size: 0.9em;
+        color: var(--Desaturated-Blue);
+        margin: 10px 0px;
+        text-align: start;
+     }
+     
+     .middle_link{
+        margin: 10px 0;
+        font-size: 0.8em;
+        color: var(--Moderate-Cyan);
+     }
+     .content-card{
+        margin: 25px 0;
+                padding: 20px;
+        width: 280px;
+        height: 162px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        box-shadow: 0px 0px 10px -3px var(--Light-Gray);
+    }
+     .card_quotes{
+        width: 15px;
+     }
+
+     .card_bottom{
+        display: flex;
+     }
+     .card-description{
+        text-align: start;
+        font-size: 0.65em;
+        line-height: 1.6;
+        color: var(--Desaturated-Blue);
+     }
+.card-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    align-self: center;
+
+    
+}
+.card_perfil{
+    margin: 10px ;
+    text-align: start;
+}
+.card-name{
+    font-size: 0.7em;
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+}
+.card-job{
+    font-size: 0.5em;
+    color: var(--Desaturated-Blue);
+
+}
+             /*secction bottom*/
+.secction_bottom{
+    margin-top: 200px;
 }
 
 @media (min-width: 600px) {
@@ -113,14 +245,41 @@ li{
     }
     .secction_top{
         flex-direction: row-reverse;
-
+        margin: 3.0rem;
     }
     .content-top_img{
        width: 40%;
     }
     .top-formulario{
         width: 60%;
+        text-align: start;
+
     }
+    .top-content-form{
+            flex-direction: row;
+            max-width: 31.2rem;
+
+
+    }
+    .top_input{
+        margin: 0px 5px;
+
+    }
+    .secction_middle{
+        flex-direction: row-reverse;
+
+    }
+    .middle-content-img{
+        width: 32.5rem;
+
+    }
+    .middle-content-description{
+        width: 60%;
+        max-width: 100%;
+        align-items: flex-start;
+
+    }
+    
   }
 
   @media (min-width: 1400px) {
