@@ -177,6 +177,21 @@ li{
         font-size: 0.8em;
         color: var(--Moderate-Cyan);
      }
+     .content-link{
+        display: flex;
+        align-items: center;
+        height: 30px;
+        border-bottom: 1px solid var(--Moderate-Cyan);
+        margin: 10px;
+        margin: 25px 0;
+        cursor: pointer;
+
+     }
+     .arrow-img{
+        width: 15px;
+        height: 15px;
+        margin: 0 5px;
+     }
      .content-card{
         margin: 10px 0;
                 padding: 20px;
