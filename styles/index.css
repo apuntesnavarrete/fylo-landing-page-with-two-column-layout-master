@@ -62,6 +62,7 @@ li{
 
 .secction_top{
     background-image: url("../images/bg-curve-mobile.svg");
+    background-size: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
 
@@ -69,7 +70,7 @@ li{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 4.3em;
 
 }
 
@@ -91,13 +92,13 @@ li{
     font-size: 1.5em;
 }
 .top-formulario{
-    padding: 1.6rem;
+    padding: 1.6em;
 }
 .top-description{
     color: var(--Desaturated-Blue);
 }
 .top-content-form{
-    margin-top: 0.9rem;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,30 +106,31 @@ li{
 }
 
 .top_input{
-    max-width: 350px;
+    max-width: 21.8em;
     width: 100%;
-    height: 40px;
+    height: 2.5em;
     border: 1px solid var(--Desaturated-Blue);
-    padding: 0 15px;
+    padding: 0 0.9em;
     border-radius: 2px;
+    font-size: 1em;
 }
 
 .top_input::placeholder{
-    font-size: 12px;
+    font-size: 0.75em;
     color: var(--Light-Gray);
 }
 
 .top_button{
-    max-width: 350px;
-    margin: 15px 0;
+    max-width: 21.8em;
+    margin: 0.9em 0;
     width: 100%;
-    height: 40px;
+    height: 2.5em;
     border: 0px solid black;
     border-radius: 5px;
     background-color: var(--Bright-Blue);
     color: var(--Light-Grayish-Blue);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1em;
 
 }
 
@@ -201,12 +203,14 @@ li{
      .content-card{
         margin: 10px 0;
                 padding: 20px;
-        width: 17.5rem;
+        width: 17.5em;
         height: 10.12em;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: center;
+
         box-shadow: 0px 0px 10px -3px var(--Light-Gray);
     }
      .card_quotes{
@@ -249,7 +253,7 @@ li{
 
     display: flex;
     flex-direction: column;
-    padding: 1.6rem;
+    padding: 3.5em 1.6em; 
     background-color: var(--Desaturated-Blue);
     text-align: center;
 }
@@ -261,6 +265,8 @@ li{
     margin: 5px 0;
     color: var(--Light-Grayish-Blue);
     font-weight: 700;
+    font-size: 1.2em;
+
 }
 
 .secction-bottom_description{
@@ -328,6 +334,10 @@ li{
     .top_img{
         max-width: 31.25rem;
     
+    }
+    .middle-description{
+        text-align: center;
+
     }
   }
 
