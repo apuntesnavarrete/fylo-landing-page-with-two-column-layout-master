@@ -61,10 +61,15 @@ li{
         /*secction top*/
 
 .secction_top{
+    background-image: url("../images/bg-curve-mobile.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+
     margin-top: 3.1rem;
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 70px;
 
 }
 
@@ -134,7 +139,8 @@ li{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 70px;
+    background-color: var(--Light-Grayish-Blue) ;
+    padding-bottom: 30px;
 
      }   
 
@@ -240,7 +246,6 @@ li{
 }
              /*secction bottom*/
 .secction_bottom{
-    margin-top: 30px;
 
     display: flex;
     flex-direction: column;
