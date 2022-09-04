@@ -332,8 +332,8 @@ li{
         font-size: 20px;
     }
     .top_img{
-        max-width: 31.25rem;
-    
+        max-width: 31.25rem
+    re
     }
     .middle-description{
         text-align: center;
@@ -346,9 +346,17 @@ li{
     body{
         font-size: 24px;
     }
+    .header{
+        padding: 2.6em 4.6em;
+
+    }
     .secction_top{
+        background-image: url("../images/bg-curve-desktop.svg");
+
         flex-direction: row-reverse;
-        margin: 3.0rem;
+        margin: 0em 0em 0em 0em;
+        padding-bottom: 6.3em;
+
     }
     .content-top_img{
        width: 40%;
@@ -360,18 +368,28 @@ li{
     }
     .top-content-form{
             flex-direction: row;
-            max-width: 31.2rem;
+            max-width: 100%;
 
 
     }
     .top_input{
-        margin: 0px 5px;
+        margin: 15px 5px;
+
+        font-size: 0.8em;
 
     }
+    .top_button{
+        margin: 0px 5px;
+
+        font-size: 0.8em;
+        max-width: 13.8em;
+
+    }
+
     .secction_middle{
         flex-direction: row-reverse;
         justify-content: space-between;
-        padding: 3rem;
+        padding: 0 3em 3em 3em  ;
 
 
     }
@@ -387,7 +405,13 @@ li{
     }
     .middle-description{
         font-size: 0.7em;
+        text-align: start;
+        max-width: 32.81em;
 
+
+    }
+    .middle-img{
+        width: 100%;
     }
     .secction_bottom{
         flex-direction: row;
@@ -406,23 +430,44 @@ li{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 50%;
+        align-items: flex-start;
 
     }
     .secction-bottom_description{
         font-size: 0.8em;
+        max-width: 25.2em;
 
     }
+    
+
+    
     .footer{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 3em;
     }
+    .content-card{
+        width: 15.5em;
+
+    }
+    li{
+        margin: 0.4em;
+    }
   }
 
   @media (min-width: 1400px) {
     body{
         font-size: 28px;
+    }
+    .top_title{
+        font-size: 1.8em;
+
+    }
+    .top-description{
+        font-size: 0.85em;
+
     }
     .middle-title{
         font-size: 1.4em;
@@ -431,10 +476,18 @@ li{
         font-size: 0.6em;
         width: 70%;
     }
+    .secction-bottom_form{
+        margin-left: 9.3em;
+    }
   }
 
   @media (min-width: 1900px) {
     body{
-        font-size: 32px;
+        font-size: 48px;
+
     }
+    
+
+   
+    
   }
