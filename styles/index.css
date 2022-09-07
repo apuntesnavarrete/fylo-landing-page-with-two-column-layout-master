@@ -123,6 +123,7 @@ li{
     font-size: 00.7em;
     color: tomato;
     margin: 0.4em 0 0.8em 0;
+    display: none;
 }
 .content-input{
     width: 100%;
@@ -284,6 +285,9 @@ li{
 }
 .secction-bottom_form input , .secction-bottom_form button{
     width: 90%;
+}
+.top_button{
+    margin-top: 10px;
 }
 
 
@@ -450,6 +454,11 @@ li{
         align-items: flex-start;
 
     }
+
+    .secction-bottom_form button {
+        margin-top: 10px;
+    }
+
     .secction-bottom_description{
         font-size: 0.8em;
         max-width: 25.2em;
